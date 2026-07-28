@@ -33,14 +33,15 @@ modules:
       - HOME=$PWD yarn config --offline set yarn-offline-mirror $FLATPAK_BUILDER_BUILDDIR/flatpak-node/yarn-mirror
       - cd frontend && yarn install --offline --frozen-lockfile --ignore-scripts
       - cd frontend && bun run build
+      - mkdir -p /app/bin
       - go build -mod=vendor -tags "embed_sidecar production webkit2_41" -o /app/bin/meron .
       - install -Dm644 metadata/flatpak/jp.nonbili.meron.metainfo.xml /app/share/metainfo/jp.nonbili.meron.metainfo.xml
       - install -Dm644 metadata/flatpak/jp.nonbili.meron.desktop /app/share/applications/jp.nonbili.meron.desktop
       - install -Dm644 metadata/flatpak/jp.nonbili.meron.png /app/share/icons/hicolor/512x512/apps/jp.nonbili.meron.png
     sources:
       - type: archive
-        url: https://github.com/nonbili/meron/archive/refs/tags/v0.1.15.tar.gz
-        sha256: 9214f738bf211a98b89a04113ef12987f27a7ea5c6b4d82331ef39352d8fca22
+        url: https://github.com/nonbili/meron/archive/refs/tags/v0.2.0.tar.gz
+        sha256: f79421b47782a4dc7d7009e7b0bc20c9767ddacbca75d9d0c1ccb4d55d4ece49
 
       - type: archive
         url: https://github.com/oven-sh/bun/releases/download/bun-v1.3.1/bun-linux-x64.zip
