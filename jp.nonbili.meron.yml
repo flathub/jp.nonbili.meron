@@ -40,8 +40,8 @@ modules:
       - install -Dm644 metadata/flatpak/jp.nonbili.meron.png /app/share/icons/hicolor/512x512/apps/jp.nonbili.meron.png
     sources:
       - type: archive
-        url: https://github.com/nonbili/meron/archive/refs/tags/v0.3.1.tar.gz
-        sha256: 5bbdcbc27ecf7220e57cec3442855fd7ead51c3662a901633b5a57431c888f23
+        url: https://github.com/nonbili/meron/archive/refs/tags/v0.3.2.tar.gz
+        sha256: dace60831caa54d327c5377910f60c1147101f2b406a32b8cace64cb717cdded
 
       - type: archive
         url: https://github.com/oven-sh/bun/releases/download/bun-v1.3.1/bun-linux-x64.zip
