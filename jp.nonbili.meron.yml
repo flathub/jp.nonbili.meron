@@ -15,6 +15,8 @@ finish-args:
   - --socket=pulseaudio
   - --share=network
   - --talk-name=org.kde.StatusNotifierWatcher
+  # Wails uses this name to activate the running instance on subsequent launches.
+  - --own-name=org.wails_app_jp_nonbili_meron.SingleInstance
 
 modules:
   - name: meron
@@ -40,8 +42,8 @@ modules:
       - install -Dm644 metadata/flatpak/jp.nonbili.meron.png /app/share/icons/hicolor/512x512/apps/jp.nonbili.meron.png
     sources:
       - type: archive
-        url: https://github.com/nonbili/meron/archive/refs/tags/v0.4.0.tar.gz
-        sha256: 99e4f422070b42f5613846177f7f2c53d1becab47fe93e611a45afe6fb863a1c
+        url: https://github.com/nonbili/meron/archive/refs/tags/v0.4.1.tar.gz
+        sha256: fab9c8a9db6e99c079f3027dfecdc7f075b467c3a78de63422deeee0947cfaa4
 
       - type: archive
         url: https://github.com/oven-sh/bun/releases/download/bun-v1.3.1/bun-linux-x64.zip
