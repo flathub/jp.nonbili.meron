@@ -40,8 +40,8 @@ modules:
       - install -Dm644 metadata/flatpak/jp.nonbili.meron.png /app/share/icons/hicolor/512x512/apps/jp.nonbili.meron.png
     sources:
       - type: archive
-        url: https://github.com/nonbili/meron/archive/refs/tags/v0.4.1.tar.gz
-        sha256: fab9c8a9db6e99c079f3027dfecdc7f075b467c3a78de63422deeee0947cfaa4
+        url: https://github.com/nonbili/meron/archive/refs/tags/v0.4.2.tar.gz
+        sha256: 021c9f54b5bd3582c4d3fbe51c5a5ba62208a0d611d1bdcaa2a9b0278dd3a194
 
       - type: archive
         url: https://github.com/oven-sh/bun/releases/download/bun-v1.3.1/bun-linux-x64.zip
@@ -63,8 +63,7 @@ modules:
       - go-sources.yml
       - yarn-sources.json
 
-      # Wails claims org.wails_app_<id>.SingleInstance, which is outside the
-      # app ID namespace. Use jp.nonbili.meron.SingleInstance instead so the
-      # single instance lock works without an extra --own-name permission.
+      # Make the Wails single instance lock claim the app ID as its D-Bus
+      # name, so no extra --own-name permission is needed.
       - type: patch
         path: wails-single-instance-dbus-name.patch
