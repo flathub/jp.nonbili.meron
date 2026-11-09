@@ -1275,6 +1275,13 @@
     },
     {
         "type": "file",
+        "url": "https://registry.yarnpkg.com/@wailsio/runtime/-/runtime-3.1.0.tgz#58f0739518df3d5af8f2261bcf7b4912ac0ed96c",
+        "sha512": "9e810079dbd1c8ef132c2aea846c33ae9fa66ccc402036b6ad899d2503b3bc957d33181a65e5c024634188c88a313492cb81123ad422e151ffe61792ce2e9998",
+        "dest-filename": "@wailsio-runtime-3.1.0.tgz",
+        "dest": "flatpak-node/yarn-mirror"
+    },
+    {
+        "type": "file",
         "url": "https://registry.yarnpkg.com/bail/-/bail-2.0.2.tgz#d26f5cd8fe5d6f832a31517b9f7c356040ba6d5d",
         "sha512": "d313ba99877b241d987acc432a995a7d1a6c88eccfb7d574d9d74f08b6d8d716063ce5f6e0d4f2379d2a9d4c6008f712a183212a902e0538d0a1164202450347",
         "dest-filename": "bail-2.0.2.tgz",
