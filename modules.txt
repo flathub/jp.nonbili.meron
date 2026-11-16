@@ -1,4 +1,4 @@
-# fyne.io/systray v1.12.3-0.20260913152509-528cad23fade => github.com/nonbili/systray v0.0.0-20261105102030-4c08ec2d9a93
+# fyne.io/systray v1.12.3-0.20260913152509-528cad23fade => github.com/nonbili/systray v0.0.0-20261116024739-f28f7c67a13b
 ## explicit; go 1.19
 fyne.io/systray
 fyne.io/systray/internal/generated/menu
@@ -174,4 +174,4 @@ golang.org/x/term
 # golang.org/x/time v0.15.0
 ## explicit; go 1.25.0
 golang.org/x/time/rate
-# fyne.io/systray => github.com/nonbili/systray v0.0.0-20261105102030-4c08ec2d9a93
+# fyne.io/systray => github.com/nonbili/systray v0.0.0-20261116024739-f28f7c67a13b
