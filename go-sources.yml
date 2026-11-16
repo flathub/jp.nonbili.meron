@@ -3,10 +3,10 @@
   path: modules.txt
   type: file
 - dest: desktop/vendor/fyne.io/systray
-  sha256: cd5abe1c250dadf9d07b364b74ad4a76cdbb6c0fe39cff365744c96d648dbd3c
+  sha256: 871930d9340196a1142eb747e8a1a8fa3fd41f9463f8dff499447a13df906d6e
   strip-components: 3
   type: archive
-  url: https://proxy.golang.org/github.com/nonbili/systray/@v/v0.0.0-20261105102030-4c08ec2d9a93.zip
+  url: https://proxy.golang.org/github.com/nonbili/systray/@v/v0.0.0-20261116024739-f28f7c67a13b.zip
 - dest: desktop/vendor/git.sr.ht/~jackmordaunt/go-toast/v2
   sha256: 9bb5ce85169e70d3fd58934f471c41ec8d63968e241050fb59a96035f065245f
   strip-components: 4
