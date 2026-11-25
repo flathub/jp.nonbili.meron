@@ -827,13 +827,6 @@
     },
     {
         "type": "file",
-        "url": "https://registry.npmjs.org/prettier/-/prettier-3.8.4.tgz",
-        "sha512": "376332952762e3cfb937fe92e63fa669e1db512233cd9e6e39c5f91e6e10a55f0391bd471637c0293297eb234f2500fd021713de27c7341ebab564d32438b5d5",
-        "dest-filename": "prettier-3.8.4.tgz",
-        "dest": "flatpak-node/yarn-mirror"
-    },
-    {
-        "type": "file",
         "url": "https://registry.npmjs.org/prosemirror-changeset/-/prosemirror-changeset-2.4.1.tgz",
         "sha512": "f7a5812e139a62127e90f84b837b96df9f53cfa23f31f72b41f2f8106bf84ab72a284302d609a81ab5c779c3c4f1e3b04d5089e08c207f333c7c569ddb9c0d7f",
         "dest-filename": "prosemirror-changeset-2.4.1.tgz",
